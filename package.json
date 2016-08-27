@@ -1,0 +1,28 @@
+{
+  "name": "cookie-monitor",
+  "version": "1.0.0",
+  "description": "Detecting food with computer vision",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Repjarms/cookie-monitor.git"
+  },
+  "author": "Jeff Arn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Repjarms/cookie-monitor/issues"
+  },
+  "homepage": "https://github.com/Repjarms/cookie-monitor#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "normalize.css": "^4.2.0",
+    "twilio": "^2.9.2",
+    "watson-developer-cloud": "^2.2.0"
+  }
+}
